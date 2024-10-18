@@ -53,7 +53,7 @@ export default function MultiFilters() {
 
             <div className="items-container">
                 {filteredItems.map((item, idx) => {
-                    const imagePath = `/src/productos/assets/${item.id}.jpg`;
+                    const imagePath = `/assets/${item.id}.jpg`; // Ruta relativa a la carpeta public
                     console.log("Image Path:", imagePath);
                     return (
                         <div key={`items-${idx}`} className="item">
