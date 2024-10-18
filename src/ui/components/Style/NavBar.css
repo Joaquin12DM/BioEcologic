@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-bottom: solid 1px gray;
+    font-size: 20px;
+}
+
+.containerLogo {
+    margin-left: 90px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.containerLogo:hover {
+    background-color: green;
+    color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container-navbar {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-right: 90px;
+}
+
+.navbar:hover {
+    box-shadow: 0px 2px 0px 0px rgb(16, 53, 23);
+}
+
+.nav-item img {
+    margin-right: 40px;
+    position: relative;
+    top: 7px;
+    width: 21px;
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+}
+
+@media (max-width: 1250px) {
+    .containerLogo {
+        margin: 20px;
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+
+    .container-navbar {
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    .navbar {
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width: 868px) {
+    .navbar {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .Nav {
+        height: 70px;
+    }
+
+    .navbar {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .containerLogo {
+        margin: 15px;
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .nav-item img {
+        margin-right: 10px;
+        width: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerLogo {
+        margin: 10px;
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    .container-navbar {
+        margin: 10px;
+    }
+
+    .navbar {
+        margin: 5px 0;
+        font-size: 13px;
+        margin-right: 20px;
+    }
+
+    .nav-item {
+        font-size: 16px;
+    }
+
+    .nav-item img {
+        margin-right: 5px;
+        width: 16px;
+    }
+}

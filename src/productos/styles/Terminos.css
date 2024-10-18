@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.container-terminos-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+
+}
+
+.Container-terminos {
+    padding: 20px;
+    font-family: "League Spartan", sans-serif;
+    width: 80%;
+    max-width: 1300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.Container-terminos h1 {
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+
+.Container-terminos ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.Container-terminos li {
+    margin-bottom: 30px;
+}
+
+.Container-terminos h2 {
+    margin-bottom: 20px;
+}
+
+.Container-terminos p {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 20px;
+}

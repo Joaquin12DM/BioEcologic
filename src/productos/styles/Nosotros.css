@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+.container1 {
+    width: 100%;
+    font-family: "League Spartan", sans-serif;
+}
+
+.text-nos {
+    text-align: center;
+    font-size: 40px;
+    margin: 90px;
+}
+
+.subcontainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer1 img {
+    width: 500px;
+    margin-right: 100px;
+}
+
+.subcontainer1 p {
+    margin-left: 100px;
+    font-size: 25px;
+    width: 700px;
+}
+
+.subcontainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer2 img {
+    width: 500px;
+    margin-left: 90px;
+}
+
+.subcontainer2 p {
+    margin-right: 90px;
+    font-size: 25px;
+    width: 700px;
+}
+
+.subcontainer3 {
+    margin: 30px;
+    text-align: center;
+}
+
+.subcontainer3 img {
+    width: 400px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.container1 {
+    width: 100%;
+    font-family: "League Spartan", sans-serif;
+}
+
+.text-nos {
+    text-align: center;
+    font-size: 40px;
+    margin: 90px;
+}
+
+.subcontainer1,
+.subcontainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subcontainer1 img,
+.subcontainer2 img {
+    width: 500px;
+    margin: 20px;
+}
+
+.subcontainer1 p,
+.subcontainer2 p {
+    font-size: 25px;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px;
+}
+
+.subcontainer3 {
+    margin: 30px;
+    text-align: center;
+}
+
+.subcontainer3 img {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .text-nos {
+        font-size: 30px;
+        margin: 50px;
+    }
+
+    .subcontainer1 img,
+    .subcontainer2 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .subcontainer1 p,
+    .subcontainer2 p {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .subcontainer3 img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-nos {
+        font-size: 25px;
+        margin: 30px;
+    }
+
+    .subcontainer1 img,
+    .subcontainer2 img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .subcontainer1 p,
+    .subcontainer2 p {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .subcontainer3 img {
+        width: 100%;
+        max-width: 250px;
+    }
+}
